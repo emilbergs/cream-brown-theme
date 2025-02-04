@@ -1,0 +1,51 @@
+{
+    "name": "cream-brown-theme",
+    "displayName": "Cream & Brown Theme",
+    "description": "A soothing VS Code theme with warm cream background and elegant brown accents",
+    "version": "1.0.0",
+    "publisher": "emilbergs",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "light theme",
+        "dark theme",
+        "cream",
+        "brown",
+        "warm",
+        "elegant",
+        "professional"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cream Comfort Light",
+                "uiTheme": "vs",
+                "path": "./themes/cream-comfort-light.json"
+            },
+            {
+                "label": "Cream Comfort Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cream-comfort-dark.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/emilbergs/cream-brown-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/emilbergs/cream-brown-theme/issues"
+    },
+    "homepage": "https://github.com/emilbergs/cream-brown-theme#readme",
+    "galleryBanner": {
+        "color": "#fbf8f5",
+        "theme": "light"
+    },
+    "icon": "images/icon.png"
+}
